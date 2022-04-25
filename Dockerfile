@@ -19,5 +19,6 @@ ENTRYPOINT ["entrypoint.sh"]
 # CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
 
 USER app
+
 RUN mkdir -p tmp/sockets
 RUN mkdir -p tmp/pids
